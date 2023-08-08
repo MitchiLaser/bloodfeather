@@ -3,7 +3,7 @@ Blood feather
 
 .. image:: ./img/logo.svg
    :width: 150 px 
-   :heigth: 150 px
+   :height: 150 px
    :scale: 100 %
    :alt: logo of the bloodfeather repository
    :align: left
