@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bloodfeather"
+authors = [
+	{ name="Michael Hohenstein", email="michael@hohenste.in" },
+]
+description = ""
+readme = "README.rst"
+requires-python= ">=3.7"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/MitchiLaser/bloodfeather"
+"Repository" = "https://github.com/MitchiLaser/bloodfeather"
+
+[tool.setuptools.dynamic]
+version = {attr = "bloodfeather.__version__"}
